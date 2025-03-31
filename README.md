@@ -1,6 +1,4 @@
-<!DOCTYPE html>
-
-<html lang="en">
+<!DOCTYPE html><html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -43,19 +41,14 @@
       max-width: 1200px;
       margin: 0 auto;
     }
-    .gallery div {
-      background-color: #fff;
+    .gallery img {
+      width: 100%;
+      height: auto;
       border-radius: 12px;
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-      height: 250px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      font-size: 1.2em;
-      color: #999;
       transition: transform 0.3s;
     }
-    .gallery div:hover {
+    .gallery img:hover {
       transform: scale(1.05);
     }
     .contact {
@@ -97,10 +90,10 @@
   </header>  <section class="intro">
     <p>Hello, I sell handmade bracelets and delivery is available throughout Canada.</p>
   </section>  <section class="gallery">
-    <div>Bracelet Image 1</div>
-    <div>Bracelet Image 2</div>
-    <div>Bracelet Image 3</div>
-    <div>Bracelet Image 4</div>
+    <img src="https://postimg.cc/fkgPVycv" alt="Bracelet 1">
+    <img src="https://postimg.cc/6yvMT059" alt="Bracelet 2">
+    <img src="https://postimg.cc/sQLJgBkQ" alt="Bracelet 3">
+    <img src="https://postimg.cc/D4bPJvhC" alt="Bracelet 4">
   </section>  <section class="contact">
     <a href="https://www.instagram.com/milenas_shop?igsh=enhyZnljazhvYzRr" target="_blank">Contact on Instagram</a>
   </section>  <footer>
